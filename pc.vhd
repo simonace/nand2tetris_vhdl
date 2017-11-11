@@ -25,6 +25,9 @@ architecture behav of pc is
       o: out std_logic_vector(15 downto 0));
   end component;
   
+  signal oo:std_logic_vector(15 downto 0);
+  signal incinc:std_logic_vector(15 downto 0);
+  
 begin
   process(clk)
   begin
